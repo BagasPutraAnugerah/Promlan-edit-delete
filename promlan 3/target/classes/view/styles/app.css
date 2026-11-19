@@ -1,0 +1,134 @@
+.root {
+    -fx-font-family: "System", "SansSerif";
+    -fx-font-size: 14px;
+    -fx-background-color: #070b14;
+}
+
+.header {
+    -fx-padding: 18 24;
+    -fx-background-color: #0d1324;
+    -fx-border-color: #1e293b;
+    -fx-border-width: 0 0 1 0;
+}
+
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f8fafc;
+}
+
+.muted {
+    -fx-text-fill: #94a3b8;
+    -fx-font-size: 12px;
+}
+
+.text-field, .combo-box {
+    -fx-padding: 8 10;
+    -fx-background-color: #111827;
+    -fx-text-fill: #f1f5f9;
+    -fx-prompt-text-fill: #64748b;
+    -fx-background-radius: 8;
+    -fx-border-color: #273549;
+    -fx-border-radius: 8;
+    -fx-border-width: 1;
+}
+
+.text-field:focused, .combo-box:focused {
+    -fx-border-color: #38bdf8;
+    -fx-background-color: #152036;
+    -fx-effect: dropshadow(gaussian, rgba(56, 189, 248, 0.25), 10, 0, 0, 0);
+}
+
+.button-primary {
+    -fx-background-color: linear-gradient(to right, #38bdf8, #6366f1);
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-padding: 9 20;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+.button-primary:hover {
+    -fx-background-color: linear-gradient(to right, #7dd3fc, #818cf8);
+    -fx-effect: dropshadow(gaussian, rgba(99, 102, 241, 0.35), 12, 0, 0, 0);
+}
+
+.button-secondary {
+    -fx-background-color: #131c31;
+    -fx-text-fill: #cbd5e1;
+    -fx-font-weight: bold;
+    -fx-padding: 9 18;
+    -fx-background-radius: 8;
+    -fx-border-color: #334155;
+    -fx-border-radius: 8;
+    -fx-border-width: 1;
+    -fx-cursor: hand;
+}
+
+.button-secondary:hover {
+    -fx-background-color: #1e293b;
+    -fx-border-color: #64748b;
+}
+
+.button-edit {
+    -fx-background-color: rgba(251, 191, 36, 0.14);
+    -fx-text-fill: #fbbf24;
+    -fx-border-color: rgba(251, 191, 36, 0.35);
+    -fx-border-radius: 6;
+    -fx-border-width: 1;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-padding: 6 12;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+
+.button-edit:hover {
+    -fx-background-color: rgba(251, 191, 36, 0.25);
+}
+
+.button-delete {
+    -fx-background-color: rgba(244, 63, 94, 0.14);
+    -fx-text-fill: #fb7185;
+    -fx-border-color: rgba(244, 63, 94, 0.35);
+    -fx-border-radius: 6;
+    -fx-border-width: 1;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-padding: 6 12;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+
+.button-delete:hover {
+    -fx-background-color: rgba(244, 63, 94, 0.25);
+}
+
+.katalog {
+    -fx-padding: 20 24;
+}
+
+.kartu-produk {
+    -fx-background-color: #0f172a;
+    -fx-background-radius: 12;
+    -fx-border-color: #1e293b;
+    -fx-border-radius: 12;
+    -fx-border-width: 1;
+    -fx-padding: 16;
+    -fx-effect: dropshadow(gaussian, rgba(2, 6, 23, 0.65), 14, 0, 0, 4);
+}
+
+.kartu-produk:hover {
+    -fx-border-color: #38bdf8;
+    -fx-effect: dropshadow(gaussian, rgba(56, 189, 248, 0.22), 18, 0, 0, 4);
+}
+
+.nama-produk {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f8fafc;
+}
+
+.scroll-pane, .scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
